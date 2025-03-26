@@ -1,2 +1,2 @@
 # schoolwebsite
-Making a simple template for a school website.
+Making a simple template for our school website.

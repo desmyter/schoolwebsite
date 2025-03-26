@@ -1,0 +1,67 @@
+* {
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    padding: 0 1em;
+    border: 0.5em solid hsl(77, 72%, 44%);
+    border-width: 0.3em;
+    border-radius: 0.5em;
+    height: 5em;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 2em;
+    margin-left: auto;
+}
+
+.logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 2em;
+    align-items: center;
+}
+
+.menu li {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    background-color: lightcoral;
+    height: 50vh;
+}
+
+.lestijden {
+    display: flex;
+    flex-direction: column;
+    background-color: lightgreen;
+    height: 30vh;
+}
