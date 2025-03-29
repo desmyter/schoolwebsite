@@ -1,3 +1,5 @@
+/* General */
+
 * {
     box-sizing: border-box;
 }
@@ -12,6 +14,8 @@ ul {
     margin: 0;
     padding: 0;
 }
+
+/* Classes */
 
 .box {
     display: flex;
@@ -55,13 +59,67 @@ ul {
 .content {
     display: flex;
     flex-direction: column;
-    background-color: lightcoral;
+    /* background-color: lightcoral; */
     height: 50vh;
+}
+
+.general-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: lightblue; */
+}
+
+.welkom-bericht {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: lightyellow; */
+    height: 30vh;
+    order: 2;
+}
+
+.welkom-bericht h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: xx-large;
+}
+
+.welkom-bericht p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: large;
+    align-self: flex-end;
+}
+
+.welkom-foto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* background-color: lightpink; */
+    height: 30vh;
+    order: 1;
+}
+
+.imgrounded {
+    border-radius: 10px;;
+}
+
+.sales-pitch {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    /* height: 30vh; */
 }
 
 .lestijden {
     display: flex;
     flex-direction: column;
-    background-color: lightgreen;
-    height: 30vh;
+    background-color: hsl(77, 72%, 44%);
+    height: 15vh;
 }
+
+/* ID's */
